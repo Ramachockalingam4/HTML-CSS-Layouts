@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .header{
+            background-color: navy;
+        }
+
+        h1{
+            padding-top: 30px;
+            text-align: center;
+            color: white;
+
+        }
+
+        .nav-links{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .nav-links a{
+            text-decoration: none;
+            color:white;
+        }
+
+        .nav-links a:hover{
+            color: yellow;
+        }
+/* 
+        .hero{
+            margin-top: 40px;
+            text-align: center;
+            background-color: steelblue;
+            padding: 20px;
+        } */
+        .hero{
+            margin-top: 40px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: steelblue;
+            width: 75%;
+            text-align: center;
+            padding: 20px;
+            width: 75%;
+            border-radius: 10px;
+            color: white;
+        }
+        .hero h2{
+            margin-bottom: 20px;
+        }
+
+        .hero p{
+            margin-bottom: 20px;
+        }
+
+        button{
+            background-color: rgb(46, 46, 166);
+            color:white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>CSS Flexbox Demonstration</h1>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <div class="hero">
+        <h2>Welcome to Flexbox Demo</h2>
+        <p>Learn how to create flexible layouts with CSS flexbox</p>
+        <button>Get Started</button>
+    </div>
+</body>
+</html>
