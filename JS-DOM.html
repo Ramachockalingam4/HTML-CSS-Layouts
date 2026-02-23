@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="head">DOM Demo</h1>
+        
+        <div id="box">
+            <p>It is a para tag</p>
+        </div>
+
+    <script>
+        // let parent = document.querySelector("#box");
+        // console.log(parent.children);
+
+        //console.dir(document);
+        // console.log(document);
+        // let element = document.getElementById("head");
+        // console.log(element);
+        // element.style.color = "red";
+        // element.style.textAlign = "center";
+        // element.textContent += " By Ramachockalingam";
+
+        let element = document.querySelector("#head");
+
+        // let para = document.createElement('p');
+        // para.id = 'pid';
+        // para.textContent = 'It is a para tag';
+        // console.log(para);
+
+        // element.append(para);
+
+        element.innerHTML = "<p>It is a paragraph</p>";
+        //innerText
+        element.className = "hero";
+        element.style.color = "red";
+        element.style.backgroundColor = "skyblue";
+        console.log(element.textContent);
+    </script>
+</body>
+</html>
